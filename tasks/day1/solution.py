@@ -31,19 +31,26 @@ def tokenize(code):
     tok_regex = '|'.join('(?P<%s>%s)' % pair for pair in token_specification)
     line_num = 1
     line_start = 0
-    for mo in re.finditer(tok_regex, code):
-        type = mo.lastgroup
-        value = mo.group()
-        column = mo.start() - line_start
-    
-        if type == 'DIGIT':
-            value = int(value)
-        elif type == 'NUMERIC_WORD' and value is not None:
-            value = NUMERIC_WORDS[value]
-        elif type == 'NEWLINE':
-            line_start = mo.end()
-            line_num += 1
-        yield Token(type, value, line_num, column)
+    pos = 0
+    while pos < len(code):
+        mo = re.search(tok_regex, code[pos:])
+        if mo:
+            type = mo.lastgroup
+            value = mo.group()
+            column = pos + mo.start() - line_start
+
+            if type == 'DIGIT':
+                value = int(value)
+            elif type == 'NUMERIC_WORD' and value is not None:
+                value = NUMERIC_WORDS[value]
+            elif type == 'NEWLINE':
+                line_start = pos + mo.end()
+                line_num += 1
+
+            yield Token(type, value, line_num, column)
+            pos += mo.start() + 1  # Move to the next character after the current match
+        else:
+            break
 
 input = '''eighthree'''
 #  input = '''five3onelxjninenine45
