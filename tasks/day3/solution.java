@@ -3,17 +3,18 @@ import java.util.Set;
 
 class Main {
     public static void main(String[] args) {
-        String largeInput = 
-            "467..114..\n" +
-            "...*......\n" +
-            "..35..633.\n" +
-            "......#...\n" +
-            "617*......\n" +
-            ".....+.58.\n" +
-            "..592.....\n" +
-            "......755.\n" +
-            "...$.*....\n" +
-            ".664.598..\n";
+        String largeInput = """
+            467..114..
+            ...*......
+            ..35..633.
+            ......#...
+            617*......
+            .....+.58.
+            ..592.....
+            ......755.
+            ...$.*....
+            .664.598..
+            """;
 
         Matrix matrix = new Matrix(largeInput);
         Set<Integer> partNumbers = matrix.getPartNumbers();
