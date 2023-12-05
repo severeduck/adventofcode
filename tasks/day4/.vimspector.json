@@ -1,0 +1,19 @@
+{
+  "configurations": {
+    "Launch": {
+      "configuration": {
+        "name": "Launch",
+        "type": "lldb",
+        "request": "launch",
+        "program": "${workspaceRoot}/main",
+        "args": [],
+        "stopAtEntry": true,
+        "cwd": "${workspaceRoot}",
+        "environment": [],
+        "externalConsole": false,
+        "preLaunchTask": "Compile"
+      }
+    }
+  }
+}
+
