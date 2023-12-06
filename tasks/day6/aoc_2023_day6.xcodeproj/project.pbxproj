@@ -1,0 +1,734 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6597CCBA2B205F06003BD4D7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6597CCB92B205F06003BD4D7 /* AppDelegate.swift */; };
+		6597CCBC2B205F06003BD4D7 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 6597CCBB2B205F06003BD4D7 /* art.scnassets */; };
+		6597CCBE2B205F06003BD4D7 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6597CCBD2B205F06003BD4D7 /* GameViewController.swift */; };
+		6597CCC12B205F06003BD4D7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6597CCBF2B205F06003BD4D7 /* Main.storyboard */; };
+		6597CCC32B205F08003BD4D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6597CCC22B205F08003BD4D7 /* Assets.xcassets */; };
+		6597CCC62B205F08003BD4D7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6597CCC42B205F08003BD4D7 /* LaunchScreen.storyboard */; };
+		6597CCD02B205F09003BD4D7 /* aoc_2023_day6Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6597CCCF2B205F09003BD4D7 /* aoc_2023_day6Tests.swift */; };
+		6597CCDA2B205F09003BD4D7 /* aoc_2023_day6UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6597CCD92B205F09003BD4D7 /* aoc_2023_day6UITests.swift */; };
+		6597CCDC2B205F09003BD4D7 /* aoc_2023_day6UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6597CCDB2B205F09003BD4D7 /* aoc_2023_day6UITestsLaunchTests.swift */; };
+		65C5C3AD2B206991008ADEE3 /* DALL·E 2023-12-06 06.57.42 - An 'on hover' state version of the stylized, minimalistic fox mask icon inspired by Japanese folklore, designed for a GUI application. The icon should.png in Resources */ = {isa = PBXBuildFile; fileRef = 65C5C38D2B206991008ADEE3 /* DALL·E 2023-12-06 06.57.42 - An 'on hover' state version of the stylized, minimalistic fox mask icon inspired by Japanese folklore, designed for a GUI application. The icon should.png */; };
+		65C5C3AE2B206991008ADEE3 /* DALL·E 2023-12-06 06.57.44 - A 'pressed' state version of the stylized, minimalistic fox mask icon inspired by Japanese folklore, designed for a GUI application. The icon should a.png in Resources */ = {isa = PBXBuildFile; fileRef = 65C5C38E2B206991008ADEE3 /* DALL·E 2023-12-06 06.57.44 - A 'pressed' state version of the stylized, minimalistic fox mask icon inspired by Japanese folklore, designed for a GUI application. The icon should a.png */; };
+		65C5C3AF2B206991008ADEE3 /* DALL·E 2023-12-06 06.48.23 - A stylized, minimalistic tanuki icon inspired by Japanese folklore, designed for a GUI application. The icon should feature bold lines and vibrant col.png in Resources */ = {isa = PBXBuildFile; fileRef = 65C5C38F2B206991008ADEE3 /* DALL·E 2023-12-06 06.48.23 - A stylized, minimalistic tanuki icon inspired by Japanese folklore, designed for a GUI application. The icon should feature bold lines and vibrant col.png */; };
+		65C5C3B02B206991008ADEE3 /* DALL·E 2023-12-06 06.46.26 - A stylized, minimalistic koi fish icon inspired by Japanese folklore, designed for a GUI application. The icon should feature bold lines and vibrant c.png in Resources */ = {isa = PBXBuildFile; fileRef = 65C5C3902B206991008ADEE3 /* DALL·E 2023-12-06 06.46.26 - A stylized, minimalistic koi fish icon inspired by Japanese folklore, designed for a GUI application. The icon should feature bold lines and vibrant c.png */; };
+		65C5C3B12B206991008ADEE3 /* DALL·E 2023-12-06 06.57.28 - A 'pressed' state version of the stylized, minimalistic Japanese fan icon inspired by Japanese folklore, designed for a GUI application. The icon shou.png in Resources */ = {isa = PBXBuildFile; fileRef = 65C5C3912B206991008ADEE3 /* DALL·E 2023-12-06 06.57.28 - A 'pressed' state version of the stylized, minimalistic Japanese fan icon inspired by Japanese folklore, designed for a GUI application. The icon shou.png */; };
+		65C5C3B22B206991008ADEE3 /* DALL·E 2023-12-06 06.46.17 - A stylized, minimalistic daruma doll icon inspired by Japanese folklore, designed for a GUI application. The icon should have bold lines, vibrant colo.png in Resources */ = {isa = PBXBuildFile; fileRef = 65C5C3922B206991008ADEE3 /* DALL·E 2023-12-06 06.46.17 - A stylized, minimalistic daruma doll icon inspired by Japanese folklore, designed for a GUI application. The icon should have bold lines, vibrant colo.png */; };
+		65C5C3B32B206991008ADEE3 /* DALL·E 2023-12-06 06.50.12 - A 'pressed' state version of the stylized, minimalistic fox mask icon inspired by Japanese folklore, designed for a GUI application. The icon features.png in Resources */ = {isa = PBXBuildFile; fileRef = 65C5C3932B206991008ADEE3 /* DALL·E 2023-12-06 06.50.12 - A 'pressed' state version of the stylized, minimalistic fox mask icon inspired by Japanese folklore, designed for a GUI application. The icon features.png */; };
+		65C5C3B42B206991008ADEE3 /* DALL·E 2023-12-06 06.48.19 - A stylized, minimalistic koi fish icon inspired by Japanese folklore, designed for a GUI application. The icon should feature bold lines and vibrant c.png in Resources */ = {isa = PBXBuildFile; fileRef = 65C5C3942B206991008ADEE3 /* DALL·E 2023-12-06 06.48.19 - A stylized, minimalistic koi fish icon inspired by Japanese folklore, designed for a GUI application. The icon should feature bold lines and vibrant c.png */; };
+		65C5C3B52B206991008ADEE3 /* DALL·E 2023-12-06 06.46.24 - A stylized, minimalistic tanuki icon inspired by Japanese folklore, designed for a GUI application. The icon should feature bold lines and vibrant col.png in Resources */ = {isa = PBXBuildFile; fileRef = 65C5C3952B206991008ADEE3 /* DALL·E 2023-12-06 06.46.24 - A stylized, minimalistic tanuki icon inspired by Japanese folklore, designed for a GUI application. The icon should feature bold lines and vibrant col.png */; };
+		65C5C3B62B206991008ADEE3 /* DALL·E 2023-12-06 06.57.34 - An 'on hover' state version of the stylized, minimalistic daruma doll icon inspired by Japanese folklore, designed for a GUI application. The icon sho.png in Resources */ = {isa = PBXBuildFile; fileRef = 65C5C3962B206991008ADEE3 /* DALL·E 2023-12-06 06.57.34 - An 'on hover' state version of the stylized, minimalistic daruma doll icon inspired by Japanese folklore, designed for a GUI application. The icon sho.png */; };
+		65C5C3B72B206991008ADEE3 /* DALL·E 2023-12-06 06.50.18 - A 'pressed' state version of the stylized, minimalistic koi fish icon inspired by Japanese folklore, designed for a GUI application. The icon should f.png in Resources */ = {isa = PBXBuildFile; fileRef = 65C5C3972B206991008ADEE3 /* DALL·E 2023-12-06 06.50.18 - A 'pressed' state version of the stylized, minimalistic koi fish icon inspired by Japanese folklore, designed for a GUI application. The icon should f.png */; };
+		65C5C3B82B206991008ADEE3 /* DALL·E 2023-12-06 06.42.24 - A serene Japanese landscape, with a traditional torii gate, cherry blossoms in full bloom, and a tranquil koi pond. In the background, a majestic Moun.png in Resources */ = {isa = PBXBuildFile; fileRef = 65C5C3982B206991008ADEE3 /* DALL·E 2023-12-06 06.42.24 - A serene Japanese landscape, with a traditional torii gate, cherry blossoms in full bloom, and a tranquil koi pond. In the background, a majestic Moun.png */; };
+		65C5C3B92B206991008ADEE3 /* DALL·E 2023-12-06 06.42.40 - A collection of Japanese folklore-themed icons, including a fox mask, a tanuki, a daruma doll, a koi fish, and a Japanese fan. The icons are designed .png in Resources */ = {isa = PBXBuildFile; fileRef = 65C5C3992B206991008ADEE3 /* DALL·E 2023-12-06 06.42.40 - A collection of Japanese folklore-themed icons, including a fox mask, a tanuki, a daruma doll, a koi fish, and a Japanese fan. The icons are designed .png */; };
+		65C5C3BA2B206991008ADEE3 /* DALL·E 2023-12-06 06.44.47 - A single, detailed image of a Japanese fox mask, styled in traditional colors and patterns, suitable for use as an icon in a GUI application. The mask.png in Resources */ = {isa = PBXBuildFile; fileRef = 65C5C39A2B206991008ADEE3 /* DALL·E 2023-12-06 06.44.47 - A single, detailed image of a Japanese fox mask, styled in traditional colors and patterns, suitable for use as an icon in a GUI application. The mask.png */; };
+		65C5C3BB2B206991008ADEE3 /* DALL·E 2023-12-06 06.44.50 - A single, detailed image of a daruma doll, designed in traditional Japanese colors and patterns, suitable for use as an icon in a GUI application. The.png in Resources */ = {isa = PBXBuildFile; fileRef = 65C5C39B2B206991008ADEE3 /* DALL·E 2023-12-06 06.44.50 - A single, detailed image of a daruma doll, designed in traditional Japanese colors and patterns, suitable for use as an icon in a GUI application. The.png */; };
+		65C5C3BC2B206991008ADEE3 /* DALL·E 2023-12-06 06.45.46 - A stylized, minimalistic fox mask icon inspired by Japanese folklore, designed for a GUI application. The icon features bold lines and vibrant colors,.png in Resources */ = {isa = PBXBuildFile; fileRef = 65C5C39C2B206991008ADEE3 /* DALL·E 2023-12-06 06.45.46 - A stylized, minimalistic fox mask icon inspired by Japanese folklore, designed for a GUI application. The icon features bold lines and vibrant colors,.png */; };
+		65C5C3BD2B206991008ADEE3 /* Screenshot 2023-12-06 at 7.07.55 AM.png in Resources */ = {isa = PBXBuildFile; fileRef = 65C5C39D2B206991008ADEE3 /* Screenshot 2023-12-06 at 7.07.55 AM.png */; };
+		65C5C3BE2B206991008ADEE3 /* DALL·E 2023-12-06 06.57.38 - An 'on hover' state version of the stylized, minimalistic tanuki icon inspired by Japanese folklore, designed for a GUI application. The icon should h.png in Resources */ = {isa = PBXBuildFile; fileRef = 65C5C39E2B206991008ADEE3 /* DALL·E 2023-12-06 06.57.38 - An 'on hover' state version of the stylized, minimalistic tanuki icon inspired by Japanese folklore, designed for a GUI application. The icon should h.png */; };
+		65C5C3BF2B206991008ADEE3 /* DALL·E 2023-12-06 06.57.25 - An 'on hover' state version of the stylized, minimalistic Japanese fan icon inspired by Japanese folklore, designed for a GUI application. The icon sh.png in Resources */ = {isa = PBXBuildFile; fileRef = 65C5C39F2B206991008ADEE3 /* DALL·E 2023-12-06 06.57.25 - An 'on hover' state version of the stylized, minimalistic Japanese fan icon inspired by Japanese folklore, designed for a GUI application. The icon sh.png */; };
+		65C5C3C02B206991008ADEE3 /* DALL·E 2023-12-06 06.45.20 - Individual PNG images of Japanese folklore-themed icons, including_ 1) A fox mask, 2) A tanuki, 3) A daruma doll, 4) A koi fish, and 5) A Japanese fan.png in Resources */ = {isa = PBXBuildFile; fileRef = 65C5C3A02B206991008ADEE3 /* DALL·E 2023-12-06 06.45.20 - Individual PNG images of Japanese folklore-themed icons, including_ 1) A fox mask, 2) A tanuki, 3) A daruma doll, 4) A koi fish, and 5) A Japanese fan.png */; };
+		65C5C3C12B206991008ADEE3 /* DALL·E 2023-12-06 06.48.17 - A stylized, minimalistic Japanese fan icon inspired by Japanese folklore, designed for a GUI application. The icon should have bold lines and vibrant .png in Resources */ = {isa = PBXBuildFile; fileRef = 65C5C3A12B206991008ADEE3 /* DALL·E 2023-12-06 06.48.17 - A stylized, minimalistic Japanese fan icon inspired by Japanese folklore, designed for a GUI application. The icon should have bold lines and vibrant .png */; };
+		65C5C3C22B206991008ADEE3 /* DALL·E 2023-12-06 06.57.35 - A 'pressed' state version of the stylized, minimalistic daruma doll icon inspired by Japanese folklore, designed for a GUI application. The icon shoul.png in Resources */ = {isa = PBXBuildFile; fileRef = 65C5C3A22B206991008ADEE3 /* DALL·E 2023-12-06 06.57.35 - A 'pressed' state version of the stylized, minimalistic daruma doll icon inspired by Japanese folklore, designed for a GUI application. The icon shoul.png */; };
+		65C5C3C32B206991008ADEE3 /* DALL·E 2023-12-06 06.57.32 - A 'pressed' state version of the stylized, minimalistic koi fish icon inspired by Japanese folklore, designed for a GUI application. The icon should a.png in Resources */ = {isa = PBXBuildFile; fileRef = 65C5C3A32B206991008ADEE3 /* DALL·E 2023-12-06 06.57.32 - A 'pressed' state version of the stylized, minimalistic koi fish icon inspired by Japanese folklore, designed for a GUI application. The icon should a.png */; };
+		65C5C3C42B206991008ADEE3 /* DALL·E 2023-12-06 06.57.41 - A 'pressed' state version of the stylized, minimalistic tanuki icon inspired by Japanese folklore, designed for a GUI application. The icon should app.png in Resources */ = {isa = PBXBuildFile; fileRef = 65C5C3A42B206991008ADEE3 /* DALL·E 2023-12-06 06.57.41 - A 'pressed' state version of the stylized, minimalistic tanuki icon inspired by Japanese folklore, designed for a GUI application. The icon should app.png */; };
+		65C5C3C52B206991008ADEE3 /* bamboo-forest Color Palette - color-hex.com.png in Resources */ = {isa = PBXBuildFile; fileRef = 65C5C3A52B206991008ADEE3 /* bamboo-forest Color Palette - color-hex.com.png */; };
+		65C5C3C62B206991008ADEE3 /* DALL·E 2023-12-06 06.48.24 - A stylized, minimalistic fox mask icon inspired by Japanese folklore, designed for a GUI application. The icon features bold lines and vibrant colors,.png in Resources */ = {isa = PBXBuildFile; fileRef = 65C5C3A62B206991008ADEE3 /* DALL·E 2023-12-06 06.48.24 - A stylized, minimalistic fox mask icon inspired by Japanese folklore, designed for a GUI application. The icon features bold lines and vibrant colors,.png */; };
+		65C5C3C72B206991008ADEE3 /* DALL·E 2023-12-06 06.42.56 - A set of Japanese folklore-inspired button designs for a GUI application. The buttons feature traditional patterns such as waves, clouds, and bamboo, .png in Resources */ = {isa = PBXBuildFile; fileRef = 65C5C3A72B206991008ADEE3 /* DALL·E 2023-12-06 06.42.56 - A set of Japanese folklore-inspired button designs for a GUI application. The buttons feature traditional patterns such as waves, clouds, and bamboo, .png */; };
+		65C5C3C82B206991008ADEE3 /* DALL·E 2023-12-06 06.50.16 - A 'pressed' state version of the stylized, minimalistic daruma doll icon inspired by Japanese folklore, designed for a GUI application. The icon shoul.png in Resources */ = {isa = PBXBuildFile; fileRef = 65C5C3A82B206991008ADEE3 /* DALL·E 2023-12-06 06.50.16 - A 'pressed' state version of the stylized, minimalistic daruma doll icon inspired by Japanese folklore, designed for a GUI application. The icon shoul.png */; };
+		65C5C3C92B206991008ADEE3 /* DALL·E 2023-12-06 06.48.21 - A stylized, minimalistic daruma doll icon inspired by Japanese folklore, designed for a GUI application. The icon should have bold lines, vibrant colo.png in Resources */ = {isa = PBXBuildFile; fileRef = 65C5C3A92B206991008ADEE3 /* DALL·E 2023-12-06 06.48.21 - A stylized, minimalistic daruma doll icon inspired by Japanese folklore, designed for a GUI application. The icon should have bold lines, vibrant colo.png */; };
+		65C5C3CA2B206991008ADEE3 /* DALL·E 2023-12-06 06.44.48 - A single, detailed image of a tanuki (Japanese raccoon dog), stylized in a traditional folklore manner, suitable for use as an icon in a GUI applicati.png in Resources */ = {isa = PBXBuildFile; fileRef = 65C5C3AA2B206991008ADEE3 /* DALL·E 2023-12-06 06.44.48 - A single, detailed image of a tanuki (Japanese raccoon dog), stylized in a traditional folklore manner, suitable for use as an icon in a GUI applicati.png */; };
+		65C5C3CB2B206991008ADEE3 /* DALL·E 2023-12-06 06.57.30 - An 'on hover' state version of the stylized, minimalistic koi fish icon inspired by Japanese folklore, designed for a GUI application. The icon should.png in Resources */ = {isa = PBXBuildFile; fileRef = 65C5C3AB2B206991008ADEE3 /* DALL·E 2023-12-06 06.57.30 - An 'on hover' state version of the stylized, minimalistic koi fish icon inspired by Japanese folklore, designed for a GUI application. The icon should.png */; };
+		65C5C3CC2B206991008ADEE3 /* DALL·E 2023-12-06 06.50.14 - A 'pressed' state version of the stylized, minimalistic tanuki icon inspired by Japanese folklore, designed for a GUI application. The icon should fea.png in Resources */ = {isa = PBXBuildFile; fileRef = 65C5C3AC2B206991008ADEE3 /* DALL·E 2023-12-06 06.50.14 - A 'pressed' state version of the stylized, minimalistic tanuki icon inspired by Japanese folklore, designed for a GUI application. The icon should fea.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6597CCCC2B205F09003BD4D7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6597CCAE2B205F06003BD4D7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6597CCB52B205F06003BD4D7;
+			remoteInfo = aoc_2023_day6;
+		};
+		6597CCD62B205F09003BD4D7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6597CCAE2B205F06003BD4D7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6597CCB52B205F06003BD4D7;
+			remoteInfo = aoc_2023_day6;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6597CCB62B205F06003BD4D7 /* aoc_2023_day6.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = aoc_2023_day6.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6597CCB92B205F06003BD4D7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6597CCBB2B205F06003BD4D7 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
+		6597CCBD2B205F06003BD4D7 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		6597CCC02B205F06003BD4D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6597CCC22B205F08003BD4D7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6597CCC52B205F08003BD4D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6597CCCB2B205F09003BD4D7 /* aoc_2023_day6Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = aoc_2023_day6Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6597CCCF2B205F09003BD4D7 /* aoc_2023_day6Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = aoc_2023_day6Tests.swift; sourceTree = "<group>"; };
+		6597CCD52B205F09003BD4D7 /* aoc_2023_day6UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = aoc_2023_day6UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6597CCD92B205F09003BD4D7 /* aoc_2023_day6UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = aoc_2023_day6UITests.swift; sourceTree = "<group>"; };
+		6597CCDB2B205F09003BD4D7 /* aoc_2023_day6UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = aoc_2023_day6UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		65C5C38D2B206991008ADEE3 /* DALL·E 2023-12-06 06.57.42 - An 'on hover' state version of the stylized, minimalistic fox mask icon inspired by Japanese folklore, designed for a GUI application. The icon should.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "DALL·E 2023-12-06 06.57.42 - An 'on hover' state version of the stylized, minimalistic fox mask icon inspired by Japanese folklore, designed for a GUI application. The icon should.png"; sourceTree = "<group>"; };
+		65C5C38E2B206991008ADEE3 /* DALL·E 2023-12-06 06.57.44 - A 'pressed' state version of the stylized, minimalistic fox mask icon inspired by Japanese folklore, designed for a GUI application. The icon should a.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "DALL·E 2023-12-06 06.57.44 - A 'pressed' state version of the stylized, minimalistic fox mask icon inspired by Japanese folklore, designed for a GUI application. The icon should a.png"; sourceTree = "<group>"; };
+		65C5C38F2B206991008ADEE3 /* DALL·E 2023-12-06 06.48.23 - A stylized, minimalistic tanuki icon inspired by Japanese folklore, designed for a GUI application. The icon should feature bold lines and vibrant col.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "DALL·E 2023-12-06 06.48.23 - A stylized, minimalistic tanuki icon inspired by Japanese folklore, designed for a GUI application. The icon should feature bold lines and vibrant col.png"; sourceTree = "<group>"; };
+		65C5C3902B206991008ADEE3 /* DALL·E 2023-12-06 06.46.26 - A stylized, minimalistic koi fish icon inspired by Japanese folklore, designed for a GUI application. The icon should feature bold lines and vibrant c.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "DALL·E 2023-12-06 06.46.26 - A stylized, minimalistic koi fish icon inspired by Japanese folklore, designed for a GUI application. The icon should feature bold lines and vibrant c.png"; sourceTree = "<group>"; };
+		65C5C3912B206991008ADEE3 /* DALL·E 2023-12-06 06.57.28 - A 'pressed' state version of the stylized, minimalistic Japanese fan icon inspired by Japanese folklore, designed for a GUI application. The icon shou.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "DALL·E 2023-12-06 06.57.28 - A 'pressed' state version of the stylized, minimalistic Japanese fan icon inspired by Japanese folklore, designed for a GUI application. The icon shou.png"; sourceTree = "<group>"; };
+		65C5C3922B206991008ADEE3 /* DALL·E 2023-12-06 06.46.17 - A stylized, minimalistic daruma doll icon inspired by Japanese folklore, designed for a GUI application. The icon should have bold lines, vibrant colo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "DALL·E 2023-12-06 06.46.17 - A stylized, minimalistic daruma doll icon inspired by Japanese folklore, designed for a GUI application. The icon should have bold lines, vibrant colo.png"; sourceTree = "<group>"; };
+		65C5C3932B206991008ADEE3 /* DALL·E 2023-12-06 06.50.12 - A 'pressed' state version of the stylized, minimalistic fox mask icon inspired by Japanese folklore, designed for a GUI application. The icon features.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "DALL·E 2023-12-06 06.50.12 - A 'pressed' state version of the stylized, minimalistic fox mask icon inspired by Japanese folklore, designed for a GUI application. The icon features.png"; sourceTree = "<group>"; };
+		65C5C3942B206991008ADEE3 /* DALL·E 2023-12-06 06.48.19 - A stylized, minimalistic koi fish icon inspired by Japanese folklore, designed for a GUI application. The icon should feature bold lines and vibrant c.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "DALL·E 2023-12-06 06.48.19 - A stylized, minimalistic koi fish icon inspired by Japanese folklore, designed for a GUI application. The icon should feature bold lines and vibrant c.png"; sourceTree = "<group>"; };
+		65C5C3952B206991008ADEE3 /* DALL·E 2023-12-06 06.46.24 - A stylized, minimalistic tanuki icon inspired by Japanese folklore, designed for a GUI application. The icon should feature bold lines and vibrant col.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "DALL·E 2023-12-06 06.46.24 - A stylized, minimalistic tanuki icon inspired by Japanese folklore, designed for a GUI application. The icon should feature bold lines and vibrant col.png"; sourceTree = "<group>"; };
+		65C5C3962B206991008ADEE3 /* DALL·E 2023-12-06 06.57.34 - An 'on hover' state version of the stylized, minimalistic daruma doll icon inspired by Japanese folklore, designed for a GUI application. The icon sho.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "DALL·E 2023-12-06 06.57.34 - An 'on hover' state version of the stylized, minimalistic daruma doll icon inspired by Japanese folklore, designed for a GUI application. The icon sho.png"; sourceTree = "<group>"; };
+		65C5C3972B206991008ADEE3 /* DALL·E 2023-12-06 06.50.18 - A 'pressed' state version of the stylized, minimalistic koi fish icon inspired by Japanese folklore, designed for a GUI application. The icon should f.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "DALL·E 2023-12-06 06.50.18 - A 'pressed' state version of the stylized, minimalistic koi fish icon inspired by Japanese folklore, designed for a GUI application. The icon should f.png"; sourceTree = "<group>"; };
+		65C5C3982B206991008ADEE3 /* DALL·E 2023-12-06 06.42.24 - A serene Japanese landscape, with a traditional torii gate, cherry blossoms in full bloom, and a tranquil koi pond. In the background, a majestic Moun.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "DALL·E 2023-12-06 06.42.24 - A serene Japanese landscape, with a traditional torii gate, cherry blossoms in full bloom, and a tranquil koi pond. In the background, a majestic Moun.png"; sourceTree = "<group>"; };
+		65C5C3992B206991008ADEE3 /* DALL·E 2023-12-06 06.42.40 - A collection of Japanese folklore-themed icons, including a fox mask, a tanuki, a daruma doll, a koi fish, and a Japanese fan. The icons are designed .png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "DALL·E 2023-12-06 06.42.40 - A collection of Japanese folklore-themed icons, including a fox mask, a tanuki, a daruma doll, a koi fish, and a Japanese fan. The icons are designed .png"; sourceTree = "<group>"; };
+		65C5C39A2B206991008ADEE3 /* DALL·E 2023-12-06 06.44.47 - A single, detailed image of a Japanese fox mask, styled in traditional colors and patterns, suitable for use as an icon in a GUI application. The mask.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "DALL·E 2023-12-06 06.44.47 - A single, detailed image of a Japanese fox mask, styled in traditional colors and patterns, suitable for use as an icon in a GUI application. The mask.png"; sourceTree = "<group>"; };
+		65C5C39B2B206991008ADEE3 /* DALL·E 2023-12-06 06.44.50 - A single, detailed image of a daruma doll, designed in traditional Japanese colors and patterns, suitable for use as an icon in a GUI application. The.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "DALL·E 2023-12-06 06.44.50 - A single, detailed image of a daruma doll, designed in traditional Japanese colors and patterns, suitable for use as an icon in a GUI application. The.png"; sourceTree = "<group>"; };
+		65C5C39C2B206991008ADEE3 /* DALL·E 2023-12-06 06.45.46 - A stylized, minimalistic fox mask icon inspired by Japanese folklore, designed for a GUI application. The icon features bold lines and vibrant colors,.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "DALL·E 2023-12-06 06.45.46 - A stylized, minimalistic fox mask icon inspired by Japanese folklore, designed for a GUI application. The icon features bold lines and vibrant colors,.png"; sourceTree = "<group>"; };
+		65C5C39D2B206991008ADEE3 /* Screenshot 2023-12-06 at 7.07.55 AM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screenshot 2023-12-06 at 7.07.55 AM.png"; sourceTree = "<group>"; };
+		65C5C39E2B206991008ADEE3 /* DALL·E 2023-12-06 06.57.38 - An 'on hover' state version of the stylized, minimalistic tanuki icon inspired by Japanese folklore, designed for a GUI application. The icon should h.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "DALL·E 2023-12-06 06.57.38 - An 'on hover' state version of the stylized, minimalistic tanuki icon inspired by Japanese folklore, designed for a GUI application. The icon should h.png"; sourceTree = "<group>"; };
+		65C5C39F2B206991008ADEE3 /* DALL·E 2023-12-06 06.57.25 - An 'on hover' state version of the stylized, minimalistic Japanese fan icon inspired by Japanese folklore, designed for a GUI application. The icon sh.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "DALL·E 2023-12-06 06.57.25 - An 'on hover' state version of the stylized, minimalistic Japanese fan icon inspired by Japanese folklore, designed for a GUI application. The icon sh.png"; sourceTree = "<group>"; };
+		65C5C3A02B206991008ADEE3 /* DALL·E 2023-12-06 06.45.20 - Individual PNG images of Japanese folklore-themed icons, including_ 1) A fox mask, 2) A tanuki, 3) A daruma doll, 4) A koi fish, and 5) A Japanese fan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "DALL·E 2023-12-06 06.45.20 - Individual PNG images of Japanese folklore-themed icons, including_ 1) A fox mask, 2) A tanuki, 3) A daruma doll, 4) A koi fish, and 5) A Japanese fan.png"; sourceTree = "<group>"; };
+		65C5C3A12B206991008ADEE3 /* DALL·E 2023-12-06 06.48.17 - A stylized, minimalistic Japanese fan icon inspired by Japanese folklore, designed for a GUI application. The icon should have bold lines and vibrant .png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "DALL·E 2023-12-06 06.48.17 - A stylized, minimalistic Japanese fan icon inspired by Japanese folklore, designed for a GUI application. The icon should have bold lines and vibrant .png"; sourceTree = "<group>"; };
+		65C5C3A22B206991008ADEE3 /* DALL·E 2023-12-06 06.57.35 - A 'pressed' state version of the stylized, minimalistic daruma doll icon inspired by Japanese folklore, designed for a GUI application. The icon shoul.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "DALL·E 2023-12-06 06.57.35 - A 'pressed' state version of the stylized, minimalistic daruma doll icon inspired by Japanese folklore, designed for a GUI application. The icon shoul.png"; sourceTree = "<group>"; };
+		65C5C3A32B206991008ADEE3 /* DALL·E 2023-12-06 06.57.32 - A 'pressed' state version of the stylized, minimalistic koi fish icon inspired by Japanese folklore, designed for a GUI application. The icon should a.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "DALL·E 2023-12-06 06.57.32 - A 'pressed' state version of the stylized, minimalistic koi fish icon inspired by Japanese folklore, designed for a GUI application. The icon should a.png"; sourceTree = "<group>"; };
+		65C5C3A42B206991008ADEE3 /* DALL·E 2023-12-06 06.57.41 - A 'pressed' state version of the stylized, minimalistic tanuki icon inspired by Japanese folklore, designed for a GUI application. The icon should app.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "DALL·E 2023-12-06 06.57.41 - A 'pressed' state version of the stylized, minimalistic tanuki icon inspired by Japanese folklore, designed for a GUI application. The icon should app.png"; sourceTree = "<group>"; };
+		65C5C3A52B206991008ADEE3 /* bamboo-forest Color Palette - color-hex.com.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bamboo-forest Color Palette - color-hex.com.png"; sourceTree = "<group>"; };
+		65C5C3A62B206991008ADEE3 /* DALL·E 2023-12-06 06.48.24 - A stylized, minimalistic fox mask icon inspired by Japanese folklore, designed for a GUI application. The icon features bold lines and vibrant colors,.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "DALL·E 2023-12-06 06.48.24 - A stylized, minimalistic fox mask icon inspired by Japanese folklore, designed for a GUI application. The icon features bold lines and vibrant colors,.png"; sourceTree = "<group>"; };
+		65C5C3A72B206991008ADEE3 /* DALL·E 2023-12-06 06.42.56 - A set of Japanese folklore-inspired button designs for a GUI application. The buttons feature traditional patterns such as waves, clouds, and bamboo, .png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "DALL·E 2023-12-06 06.42.56 - A set of Japanese folklore-inspired button designs for a GUI application. The buttons feature traditional patterns such as waves, clouds, and bamboo, .png"; sourceTree = "<group>"; };
+		65C5C3A82B206991008ADEE3 /* DALL·E 2023-12-06 06.50.16 - A 'pressed' state version of the stylized, minimalistic daruma doll icon inspired by Japanese folklore, designed for a GUI application. The icon shoul.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "DALL·E 2023-12-06 06.50.16 - A 'pressed' state version of the stylized, minimalistic daruma doll icon inspired by Japanese folklore, designed for a GUI application. The icon shoul.png"; sourceTree = "<group>"; };
+		65C5C3A92B206991008ADEE3 /* DALL·E 2023-12-06 06.48.21 - A stylized, minimalistic daruma doll icon inspired by Japanese folklore, designed for a GUI application. The icon should have bold lines, vibrant colo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "DALL·E 2023-12-06 06.48.21 - A stylized, minimalistic daruma doll icon inspired by Japanese folklore, designed for a GUI application. The icon should have bold lines, vibrant colo.png"; sourceTree = "<group>"; };
+		65C5C3AA2B206991008ADEE3 /* DALL·E 2023-12-06 06.44.48 - A single, detailed image of a tanuki (Japanese raccoon dog), stylized in a traditional folklore manner, suitable for use as an icon in a GUI applicati.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "DALL·E 2023-12-06 06.44.48 - A single, detailed image of a tanuki (Japanese raccoon dog), stylized in a traditional folklore manner, suitable for use as an icon in a GUI applicati.png"; sourceTree = "<group>"; };
+		65C5C3AB2B206991008ADEE3 /* DALL·E 2023-12-06 06.57.30 - An 'on hover' state version of the stylized, minimalistic koi fish icon inspired by Japanese folklore, designed for a GUI application. The icon should.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "DALL·E 2023-12-06 06.57.30 - An 'on hover' state version of the stylized, minimalistic koi fish icon inspired by Japanese folklore, designed for a GUI application. The icon should.png"; sourceTree = "<group>"; };
+		65C5C3AC2B206991008ADEE3 /* DALL·E 2023-12-06 06.50.14 - A 'pressed' state version of the stylized, minimalistic tanuki icon inspired by Japanese folklore, designed for a GUI application. The icon should fea.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "DALL·E 2023-12-06 06.50.14 - A 'pressed' state version of the stylized, minimalistic tanuki icon inspired by Japanese folklore, designed for a GUI application. The icon should fea.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6597CCB32B205F06003BD4D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6597CCC82B205F09003BD4D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6597CCD22B205F09003BD4D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6597CCAD2B205F06003BD4D7 = {
+			isa = PBXGroup;
+			children = (
+				6597CCB82B205F06003BD4D7 /* aoc_2023_day6 */,
+				6597CCCE2B205F09003BD4D7 /* aoc_2023_day6Tests */,
+				6597CCD82B205F09003BD4D7 /* aoc_2023_day6UITests */,
+				6597CCB72B205F06003BD4D7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6597CCB72B205F06003BD4D7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6597CCB62B205F06003BD4D7 /* aoc_2023_day6.app */,
+				6597CCCB2B205F09003BD4D7 /* aoc_2023_day6Tests.xctest */,
+				6597CCD52B205F09003BD4D7 /* aoc_2023_day6UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6597CCB82B205F06003BD4D7 /* aoc_2023_day6 */ = {
+			isa = PBXGroup;
+			children = (
+				65C5C38C2B206991008ADEE3 /* resources */,
+				6597CCB92B205F06003BD4D7 /* AppDelegate.swift */,
+				6597CCBB2B205F06003BD4D7 /* art.scnassets */,
+				6597CCBD2B205F06003BD4D7 /* GameViewController.swift */,
+				6597CCBF2B205F06003BD4D7 /* Main.storyboard */,
+				6597CCC22B205F08003BD4D7 /* Assets.xcassets */,
+				6597CCC42B205F08003BD4D7 /* LaunchScreen.storyboard */,
+			);
+			path = aoc_2023_day6;
+			sourceTree = "<group>";
+		};
+		6597CCCE2B205F09003BD4D7 /* aoc_2023_day6Tests */ = {
+			isa = PBXGroup;
+			children = (
+				6597CCCF2B205F09003BD4D7 /* aoc_2023_day6Tests.swift */,
+			);
+			path = aoc_2023_day6Tests;
+			sourceTree = "<group>";
+		};
+		6597CCD82B205F09003BD4D7 /* aoc_2023_day6UITests */ = {
+			isa = PBXGroup;
+			children = (
+				6597CCD92B205F09003BD4D7 /* aoc_2023_day6UITests.swift */,
+				6597CCDB2B205F09003BD4D7 /* aoc_2023_day6UITestsLaunchTests.swift */,
+			);
+			path = aoc_2023_day6UITests;
+			sourceTree = "<group>";
+		};
+		65C5C38C2B206991008ADEE3 /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				65C5C38D2B206991008ADEE3 /* DALL·E 2023-12-06 06.57.42 - An 'on hover' state version of the stylized, minimalistic fox mask icon inspired by Japanese folklore, designed for a GUI application. The icon should.png */,
+				65C5C38E2B206991008ADEE3 /* DALL·E 2023-12-06 06.57.44 - A 'pressed' state version of the stylized, minimalistic fox mask icon inspired by Japanese folklore, designed for a GUI application. The icon should a.png */,
+				65C5C38F2B206991008ADEE3 /* DALL·E 2023-12-06 06.48.23 - A stylized, minimalistic tanuki icon inspired by Japanese folklore, designed for a GUI application. The icon should feature bold lines and vibrant col.png */,
+				65C5C3902B206991008ADEE3 /* DALL·E 2023-12-06 06.46.26 - A stylized, minimalistic koi fish icon inspired by Japanese folklore, designed for a GUI application. The icon should feature bold lines and vibrant c.png */,
+				65C5C3912B206991008ADEE3 /* DALL·E 2023-12-06 06.57.28 - A 'pressed' state version of the stylized, minimalistic Japanese fan icon inspired by Japanese folklore, designed for a GUI application. The icon shou.png */,
+				65C5C3922B206991008ADEE3 /* DALL·E 2023-12-06 06.46.17 - A stylized, minimalistic daruma doll icon inspired by Japanese folklore, designed for a GUI application. The icon should have bold lines, vibrant colo.png */,
+				65C5C3932B206991008ADEE3 /* DALL·E 2023-12-06 06.50.12 - A 'pressed' state version of the stylized, minimalistic fox mask icon inspired by Japanese folklore, designed for a GUI application. The icon features.png */,
+				65C5C3942B206991008ADEE3 /* DALL·E 2023-12-06 06.48.19 - A stylized, minimalistic koi fish icon inspired by Japanese folklore, designed for a GUI application. The icon should feature bold lines and vibrant c.png */,
+				65C5C3952B206991008ADEE3 /* DALL·E 2023-12-06 06.46.24 - A stylized, minimalistic tanuki icon inspired by Japanese folklore, designed for a GUI application. The icon should feature bold lines and vibrant col.png */,
+				65C5C3962B206991008ADEE3 /* DALL·E 2023-12-06 06.57.34 - An 'on hover' state version of the stylized, minimalistic daruma doll icon inspired by Japanese folklore, designed for a GUI application. The icon sho.png */,
+				65C5C3972B206991008ADEE3 /* DALL·E 2023-12-06 06.50.18 - A 'pressed' state version of the stylized, minimalistic koi fish icon inspired by Japanese folklore, designed for a GUI application. The icon should f.png */,
+				65C5C3982B206991008ADEE3 /* DALL·E 2023-12-06 06.42.24 - A serene Japanese landscape, with a traditional torii gate, cherry blossoms in full bloom, and a tranquil koi pond. In the background, a majestic Moun.png */,
+				65C5C3992B206991008ADEE3 /* DALL·E 2023-12-06 06.42.40 - A collection of Japanese folklore-themed icons, including a fox mask, a tanuki, a daruma doll, a koi fish, and a Japanese fan. The icons are designed .png */,
+				65C5C39A2B206991008ADEE3 /* DALL·E 2023-12-06 06.44.47 - A single, detailed image of a Japanese fox mask, styled in traditional colors and patterns, suitable for use as an icon in a GUI application. The mask.png */,
+				65C5C39B2B206991008ADEE3 /* DALL·E 2023-12-06 06.44.50 - A single, detailed image of a daruma doll, designed in traditional Japanese colors and patterns, suitable for use as an icon in a GUI application. The.png */,
+				65C5C39C2B206991008ADEE3 /* DALL·E 2023-12-06 06.45.46 - A stylized, minimalistic fox mask icon inspired by Japanese folklore, designed for a GUI application. The icon features bold lines and vibrant colors,.png */,
+				65C5C39D2B206991008ADEE3 /* Screenshot 2023-12-06 at 7.07.55 AM.png */,
+				65C5C39E2B206991008ADEE3 /* DALL·E 2023-12-06 06.57.38 - An 'on hover' state version of the stylized, minimalistic tanuki icon inspired by Japanese folklore, designed for a GUI application. The icon should h.png */,
+				65C5C39F2B206991008ADEE3 /* DALL·E 2023-12-06 06.57.25 - An 'on hover' state version of the stylized, minimalistic Japanese fan icon inspired by Japanese folklore, designed for a GUI application. The icon sh.png */,
+				65C5C3A02B206991008ADEE3 /* DALL·E 2023-12-06 06.45.20 - Individual PNG images of Japanese folklore-themed icons, including_ 1) A fox mask, 2) A tanuki, 3) A daruma doll, 4) A koi fish, and 5) A Japanese fan.png */,
+				65C5C3A12B206991008ADEE3 /* DALL·E 2023-12-06 06.48.17 - A stylized, minimalistic Japanese fan icon inspired by Japanese folklore, designed for a GUI application. The icon should have bold lines and vibrant .png */,
+				65C5C3A22B206991008ADEE3 /* DALL·E 2023-12-06 06.57.35 - A 'pressed' state version of the stylized, minimalistic daruma doll icon inspired by Japanese folklore, designed for a GUI application. The icon shoul.png */,
+				65C5C3A32B206991008ADEE3 /* DALL·E 2023-12-06 06.57.32 - A 'pressed' state version of the stylized, minimalistic koi fish icon inspired by Japanese folklore, designed for a GUI application. The icon should a.png */,
+				65C5C3A42B206991008ADEE3 /* DALL·E 2023-12-06 06.57.41 - A 'pressed' state version of the stylized, minimalistic tanuki icon inspired by Japanese folklore, designed for a GUI application. The icon should app.png */,
+				65C5C3A52B206991008ADEE3 /* bamboo-forest Color Palette - color-hex.com.png */,
+				65C5C3A62B206991008ADEE3 /* DALL·E 2023-12-06 06.48.24 - A stylized, minimalistic fox mask icon inspired by Japanese folklore, designed for a GUI application. The icon features bold lines and vibrant colors,.png */,
+				65C5C3A72B206991008ADEE3 /* DALL·E 2023-12-06 06.42.56 - A set of Japanese folklore-inspired button designs for a GUI application. The buttons feature traditional patterns such as waves, clouds, and bamboo, .png */,
+				65C5C3A82B206991008ADEE3 /* DALL·E 2023-12-06 06.50.16 - A 'pressed' state version of the stylized, minimalistic daruma doll icon inspired by Japanese folklore, designed for a GUI application. The icon shoul.png */,
+				65C5C3A92B206991008ADEE3 /* DALL·E 2023-12-06 06.48.21 - A stylized, minimalistic daruma doll icon inspired by Japanese folklore, designed for a GUI application. The icon should have bold lines, vibrant colo.png */,
+				65C5C3AA2B206991008ADEE3 /* DALL·E 2023-12-06 06.44.48 - A single, detailed image of a tanuki (Japanese raccoon dog), stylized in a traditional folklore manner, suitable for use as an icon in a GUI applicati.png */,
+				65C5C3AB2B206991008ADEE3 /* DALL·E 2023-12-06 06.57.30 - An 'on hover' state version of the stylized, minimalistic koi fish icon inspired by Japanese folklore, designed for a GUI application. The icon should.png */,
+				65C5C3AC2B206991008ADEE3 /* DALL·E 2023-12-06 06.50.14 - A 'pressed' state version of the stylized, minimalistic tanuki icon inspired by Japanese folklore, designed for a GUI application. The icon should fea.png */,
+			);
+			path = resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6597CCB52B205F06003BD4D7 /* aoc_2023_day6 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6597CCDF2B205F09003BD4D7 /* Build configuration list for PBXNativeTarget "aoc_2023_day6" */;
+			buildPhases = (
+				6597CCB22B205F06003BD4D7 /* Sources */,
+				6597CCB32B205F06003BD4D7 /* Frameworks */,
+				6597CCB42B205F06003BD4D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = aoc_2023_day6;
+			productName = aoc_2023_day6;
+			productReference = 6597CCB62B205F06003BD4D7 /* aoc_2023_day6.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6597CCCA2B205F09003BD4D7 /* aoc_2023_day6Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6597CCE22B205F09003BD4D7 /* Build configuration list for PBXNativeTarget "aoc_2023_day6Tests" */;
+			buildPhases = (
+				6597CCC72B205F09003BD4D7 /* Sources */,
+				6597CCC82B205F09003BD4D7 /* Frameworks */,
+				6597CCC92B205F09003BD4D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6597CCCD2B205F09003BD4D7 /* PBXTargetDependency */,
+			);
+			name = aoc_2023_day6Tests;
+			productName = aoc_2023_day6Tests;
+			productReference = 6597CCCB2B205F09003BD4D7 /* aoc_2023_day6Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6597CCD42B205F09003BD4D7 /* aoc_2023_day6UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6597CCE52B205F09003BD4D7 /* Build configuration list for PBXNativeTarget "aoc_2023_day6UITests" */;
+			buildPhases = (
+				6597CCD12B205F09003BD4D7 /* Sources */,
+				6597CCD22B205F09003BD4D7 /* Frameworks */,
+				6597CCD32B205F09003BD4D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6597CCD72B205F09003BD4D7 /* PBXTargetDependency */,
+			);
+			name = aoc_2023_day6UITests;
+			productName = aoc_2023_day6UITests;
+			productReference = 6597CCD52B205F09003BD4D7 /* aoc_2023_day6UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6597CCAE2B205F06003BD4D7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					6597CCB52B205F06003BD4D7 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					6597CCCA2B205F09003BD4D7 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 6597CCB52B205F06003BD4D7;
+					};
+					6597CCD42B205F09003BD4D7 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 6597CCB52B205F06003BD4D7;
+					};
+				};
+			};
+			buildConfigurationList = 6597CCB12B205F06003BD4D7 /* Build configuration list for PBXProject "aoc_2023_day6" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6597CCAD2B205F06003BD4D7;
+			productRefGroup = 6597CCB72B205F06003BD4D7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6597CCB52B205F06003BD4D7 /* aoc_2023_day6 */,
+				6597CCCA2B205F09003BD4D7 /* aoc_2023_day6Tests */,
+				6597CCD42B205F09003BD4D7 /* aoc_2023_day6UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6597CCB42B205F06003BD4D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65C5C3C72B206991008ADEE3 /* DALL·E 2023-12-06 06.42.56 - A set of Japanese folklore-inspired button designs for a GUI application. The buttons feature traditional patterns such as waves, clouds, and bamboo, .png in Resources */,
+				65C5C3B62B206991008ADEE3 /* DALL·E 2023-12-06 06.57.34 - An 'on hover' state version of the stylized, minimalistic daruma doll icon inspired by Japanese folklore, designed for a GUI application. The icon sho.png in Resources */,
+				65C5C3AE2B206991008ADEE3 /* DALL·E 2023-12-06 06.57.44 - A 'pressed' state version of the stylized, minimalistic fox mask icon inspired by Japanese folklore, designed for a GUI application. The icon should a.png in Resources */,
+				65C5C3BA2B206991008ADEE3 /* DALL·E 2023-12-06 06.44.47 - A single, detailed image of a Japanese fox mask, styled in traditional colors and patterns, suitable for use as an icon in a GUI application. The mask.png in Resources */,
+				65C5C3C52B206991008ADEE3 /* bamboo-forest Color Palette - color-hex.com.png in Resources */,
+				65C5C3B52B206991008ADEE3 /* DALL·E 2023-12-06 06.46.24 - A stylized, minimalistic tanuki icon inspired by Japanese folklore, designed for a GUI application. The icon should feature bold lines and vibrant col.png in Resources */,
+				65C5C3BC2B206991008ADEE3 /* DALL·E 2023-12-06 06.45.46 - A stylized, minimalistic fox mask icon inspired by Japanese folklore, designed for a GUI application. The icon features bold lines and vibrant colors,.png in Resources */,
+				65C5C3B02B206991008ADEE3 /* DALL·E 2023-12-06 06.46.26 - A stylized, minimalistic koi fish icon inspired by Japanese folklore, designed for a GUI application. The icon should feature bold lines and vibrant c.png in Resources */,
+				65C5C3AD2B206991008ADEE3 /* DALL·E 2023-12-06 06.57.42 - An 'on hover' state version of the stylized, minimalistic fox mask icon inspired by Japanese folklore, designed for a GUI application. The icon should.png in Resources */,
+				65C5C3C22B206991008ADEE3 /* DALL·E 2023-12-06 06.57.35 - A 'pressed' state version of the stylized, minimalistic daruma doll icon inspired by Japanese folklore, designed for a GUI application. The icon shoul.png in Resources */,
+				65C5C3BF2B206991008ADEE3 /* DALL·E 2023-12-06 06.57.25 - An 'on hover' state version of the stylized, minimalistic Japanese fan icon inspired by Japanese folklore, designed for a GUI application. The icon sh.png in Resources */,
+				65C5C3CB2B206991008ADEE3 /* DALL·E 2023-12-06 06.57.30 - An 'on hover' state version of the stylized, minimalistic koi fish icon inspired by Japanese folklore, designed for a GUI application. The icon should.png in Resources */,
+				6597CCBC2B205F06003BD4D7 /* art.scnassets in Resources */,
+				65C5C3AF2B206991008ADEE3 /* DALL·E 2023-12-06 06.48.23 - A stylized, minimalistic tanuki icon inspired by Japanese folklore, designed for a GUI application. The icon should feature bold lines and vibrant col.png in Resources */,
+				65C5C3B92B206991008ADEE3 /* DALL·E 2023-12-06 06.42.40 - A collection of Japanese folklore-themed icons, including a fox mask, a tanuki, a daruma doll, a koi fish, and a Japanese fan. The icons are designed .png in Resources */,
+				65C5C3C62B206991008ADEE3 /* DALL·E 2023-12-06 06.48.24 - A stylized, minimalistic fox mask icon inspired by Japanese folklore, designed for a GUI application. The icon features bold lines and vibrant colors,.png in Resources */,
+				65C5C3C42B206991008ADEE3 /* DALL·E 2023-12-06 06.57.41 - A 'pressed' state version of the stylized, minimalistic tanuki icon inspired by Japanese folklore, designed for a GUI application. The icon should app.png in Resources */,
+				65C5C3BD2B206991008ADEE3 /* Screenshot 2023-12-06 at 7.07.55 AM.png in Resources */,
+				65C5C3C12B206991008ADEE3 /* DALL·E 2023-12-06 06.48.17 - A stylized, minimalistic Japanese fan icon inspired by Japanese folklore, designed for a GUI application. The icon should have bold lines and vibrant .png in Resources */,
+				65C5C3B42B206991008ADEE3 /* DALL·E 2023-12-06 06.48.19 - A stylized, minimalistic koi fish icon inspired by Japanese folklore, designed for a GUI application. The icon should feature bold lines and vibrant c.png in Resources */,
+				65C5C3CC2B206991008ADEE3 /* DALL·E 2023-12-06 06.50.14 - A 'pressed' state version of the stylized, minimalistic tanuki icon inspired by Japanese folklore, designed for a GUI application. The icon should fea.png in Resources */,
+				65C5C3C02B206991008ADEE3 /* DALL·E 2023-12-06 06.45.20 - Individual PNG images of Japanese folklore-themed icons, including_ 1) A fox mask, 2) A tanuki, 3) A daruma doll, 4) A koi fish, and 5) A Japanese fan.png in Resources */,
+				65C5C3BB2B206991008ADEE3 /* DALL·E 2023-12-06 06.44.50 - A single, detailed image of a daruma doll, designed in traditional Japanese colors and patterns, suitable for use as an icon in a GUI application. The.png in Resources */,
+				65C5C3BE2B206991008ADEE3 /* DALL·E 2023-12-06 06.57.38 - An 'on hover' state version of the stylized, minimalistic tanuki icon inspired by Japanese folklore, designed for a GUI application. The icon should h.png in Resources */,
+				65C5C3B32B206991008ADEE3 /* DALL·E 2023-12-06 06.50.12 - A 'pressed' state version of the stylized, minimalistic fox mask icon inspired by Japanese folklore, designed for a GUI application. The icon features.png in Resources */,
+				65C5C3C82B206991008ADEE3 /* DALL·E 2023-12-06 06.50.16 - A 'pressed' state version of the stylized, minimalistic daruma doll icon inspired by Japanese folklore, designed for a GUI application. The icon shoul.png in Resources */,
+				65C5C3C32B206991008ADEE3 /* DALL·E 2023-12-06 06.57.32 - A 'pressed' state version of the stylized, minimalistic koi fish icon inspired by Japanese folklore, designed for a GUI application. The icon should a.png in Resources */,
+				65C5C3B72B206991008ADEE3 /* DALL·E 2023-12-06 06.50.18 - A 'pressed' state version of the stylized, minimalistic koi fish icon inspired by Japanese folklore, designed for a GUI application. The icon should f.png in Resources */,
+				6597CCC62B205F08003BD4D7 /* LaunchScreen.storyboard in Resources */,
+				6597CCC32B205F08003BD4D7 /* Assets.xcassets in Resources */,
+				65C5C3B22B206991008ADEE3 /* DALL·E 2023-12-06 06.46.17 - A stylized, minimalistic daruma doll icon inspired by Japanese folklore, designed for a GUI application. The icon should have bold lines, vibrant colo.png in Resources */,
+				6597CCC12B205F06003BD4D7 /* Main.storyboard in Resources */,
+				65C5C3CA2B206991008ADEE3 /* DALL·E 2023-12-06 06.44.48 - A single, detailed image of a tanuki (Japanese raccoon dog), stylized in a traditional folklore manner, suitable for use as an icon in a GUI applicati.png in Resources */,
+				65C5C3B82B206991008ADEE3 /* DALL·E 2023-12-06 06.42.24 - A serene Japanese landscape, with a traditional torii gate, cherry blossoms in full bloom, and a tranquil koi pond. In the background, a majestic Moun.png in Resources */,
+				65C5C3B12B206991008ADEE3 /* DALL·E 2023-12-06 06.57.28 - A 'pressed' state version of the stylized, minimalistic Japanese fan icon inspired by Japanese folklore, designed for a GUI application. The icon shou.png in Resources */,
+				65C5C3C92B206991008ADEE3 /* DALL·E 2023-12-06 06.48.21 - A stylized, minimalistic daruma doll icon inspired by Japanese folklore, designed for a GUI application. The icon should have bold lines, vibrant colo.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6597CCC92B205F09003BD4D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6597CCD32B205F09003BD4D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6597CCB22B205F06003BD4D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6597CCBE2B205F06003BD4D7 /* GameViewController.swift in Sources */,
+				6597CCBA2B205F06003BD4D7 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6597CCC72B205F09003BD4D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6597CCD02B205F09003BD4D7 /* aoc_2023_day6Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6597CCD12B205F09003BD4D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6597CCDA2B205F09003BD4D7 /* aoc_2023_day6UITests.swift in Sources */,
+				6597CCDC2B205F09003BD4D7 /* aoc_2023_day6UITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6597CCCD2B205F09003BD4D7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6597CCB52B205F06003BD4D7 /* aoc_2023_day6 */;
+			targetProxy = 6597CCCC2B205F09003BD4D7 /* PBXContainerItemProxy */;
+		};
+		6597CCD72B205F09003BD4D7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6597CCB52B205F06003BD4D7 /* aoc_2023_day6 */;
+			targetProxy = 6597CCD62B205F09003BD4D7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6597CCBF2B205F06003BD4D7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6597CCC02B205F06003BD4D7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6597CCC42B205F08003BD4D7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6597CCC52B205F08003BD4D7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6597CCDD2B205F09003BD4D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = appletvos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TVOS_DEPLOYMENT_TARGET = 17.0;
+			};
+			name = Debug;
+		};
+		6597CCDE2B205F09003BD4D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = appletvos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				TVOS_DEPLOYMENT_TARGET = 17.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6597CCE02B205F09003BD4D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Automatic;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "severeduck.aoc-2023-day6";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+			};
+			name = Debug;
+		};
+		6597CCE12B205F09003BD4D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Automatic;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "severeduck.aoc-2023-day6";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+			};
+			name = Release;
+		};
+		6597CCE32B205F09003BD4D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "severeduck.aoc-2023-day6Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/aoc_2023_day6.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/aoc_2023_day6";
+				TVOS_DEPLOYMENT_TARGET = 17.0;
+			};
+			name = Debug;
+		};
+		6597CCE42B205F09003BD4D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "severeduck.aoc-2023-day6Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/aoc_2023_day6.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/aoc_2023_day6";
+				TVOS_DEPLOYMENT_TARGET = 17.0;
+			};
+			name = Release;
+		};
+		6597CCE62B205F09003BD4D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "severeduck.aoc-2023-day6UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_TARGET_NAME = aoc_2023_day6;
+			};
+			name = Debug;
+		};
+		6597CCE72B205F09003BD4D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "severeduck.aoc-2023-day6UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_TARGET_NAME = aoc_2023_day6;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6597CCB12B205F06003BD4D7 /* Build configuration list for PBXProject "aoc_2023_day6" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6597CCDD2B205F09003BD4D7 /* Debug */,
+				6597CCDE2B205F09003BD4D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6597CCDF2B205F09003BD4D7 /* Build configuration list for PBXNativeTarget "aoc_2023_day6" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6597CCE02B205F09003BD4D7 /* Debug */,
+				6597CCE12B205F09003BD4D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6597CCE22B205F09003BD4D7 /* Build configuration list for PBXNativeTarget "aoc_2023_day6Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6597CCE32B205F09003BD4D7 /* Debug */,
+				6597CCE42B205F09003BD4D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6597CCE52B205F09003BD4D7 /* Build configuration list for PBXNativeTarget "aoc_2023_day6UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6597CCE62B205F09003BD4D7 /* Debug */,
+				6597CCE72B205F09003BD4D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6597CCAE2B205F06003BD4D7 /* Project object */;
+}
