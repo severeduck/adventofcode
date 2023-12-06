@@ -2,12 +2,25 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "name": "Ruby Debug",
+            "type": "Ruby",
+            "request": "launch",
+            "program": "${file}",
+            "cwd": "${workspaceFolder}",
+            "stopOnEntry": false,
+            "runtimeArgs": [],
+            "env": {},
+            "externalConsole": false,
+            "useBundler": true,
+            "pathToBundler": "bundle"
+        },
+        {
             "name": "(lldb) Attach",
             "type": "cppdbg",
             "request": "attach",
             "program": "enter program name, for example ${workspaceFolder}/a.out",
             "MIMode": "lldb"
-        }
+        },
         {
             "name": "(lldb) Launch",
             "type": "cppdbg",
