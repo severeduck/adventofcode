@@ -7,8 +7,8 @@ A different language for each day of the event:
 3. [**Day 3: Java**](https://github.com/severeduck/adventofcode/blob/main/tasks/day3/solution.java) - A strong, statically-typed language, good for object-oriented programming challenges.
 4. [**Day 4: C++**](https://github.com/severeduck/adventofcode/blob/main/tasks/day4/solution.cpp) - Ideal for performance-intensive problems.
 5. [**Day 5: Ruby**](https://github.com/severeduck/adventofcode/blob/main/tasks/day5/solution.rb) - Focus on elegant syntax and quick scripting capabilities.
-6. [**Day 6: Swift**](https://github.com/severeduck/adventofcode/blob/main/tasks/day6/solution.swift) - Leverage your existing skills in a familiar language.
-7. [**Day 7: Go**](https://github.com/severeduck/adventofcode/blob/main/tasks/day7/solution.go) - For its simplicity and efficient concurrency handling.
+6. [**Day 6: Swift**](https://github.com/severeduck/adventofcode/blob/main/tasks/day6/aoc_2023_day6/GameViewController.swift) - Leverage your existing skills in a familiar language.
+7. [**Day 7: Go**](https://github.com/severeduck/adventofcode/blob/main/tasks/day7/main.go) - For its simplicity and efficient concurrency handling.
 8. [**Day 8: Rust**](https://github.com/severeduck/adventofcode/blob/main/tasks/day8/solution.rs) - Safe memory management and performance.
 9. [**Day 9: PHP**](https://github.com/severeduck/adventofcode/blob/main/tasks/day9/solution.php) - Widely used in web development, offering a different perspective.
 10. [**Day 10: Kotlin**](https://github.com/severeduck/adventofcode/blob/main/tasks/day10/solution.kt) - Modern language, great for concise and expressive code.
