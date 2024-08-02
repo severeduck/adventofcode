@@ -10,20 +10,20 @@ A different language for each day of the event:
 6. [**Day 6: Swift**](tasks/day6/aoc_2023_day6/GameViewController.swift) - Leverage your existing skills in a familiar language.
 7. [**Day 7: Go**](tasks/day7/main.go) - For its simplicity and efficient concurrency handling.
 8. [**Day 8: Rust**](tasks/day8/solution.rs) - Safe memory management and performance.
-9. [**Day 9: PHP**](tasks/day9/solution.php) - Widely used in web development, offering a different perspective.
-10. [**Day 10: Kotlin**](tasks/day10/solution.kt) - Modern language, great for concise and expressive code.
-11. [**Day 11: Scala**](tasks/day11/solution.scala) - Functional programming features on the JVM.
-12. [**Day 12: C#**](tasks/day12/solution.cs) - Powerful for various applications, with robust library support.
-13. [**Day 13: Haskell**](tasks/day13/solution.hs) - Pure functional programming for a different challenge.
-14. [**Day 14: TypeScript**](tasks/day14/solution.ts) - JavaScript with static type-checking.
-15. [**Day 15: Perl**](tasks/day15/solution.pl) - Text processing and system administration tasks.
-16. [**Day 16: Lua**](tasks/day16/solution.lua) - Lightweight and embeddable scripting language.
-17. [**Day 17: Clojure**](tasks/day17/solution.clj) - A modern take on Lisp, emphasizing immutability and functional programming.
-18. [**Day 18: R**](tasks/day18/solution.r) - Great for any data analysis or statistical challenges.
-19. [**Day 19: Groovy**](tasks/day19/solution.groovy) - Agile and dynamic language for the Java platform.
-20. [**Day 20: Objective-C**](tasks/day20/solution.m) - A different flavor of C, especially for those familiar with Apple ecosystems.
-21. [**Day 21: Erlang**](tasks/day21/solution.erl) - For its unique approach to concurrency and distributed systems.
-22. [**Day 22: Elixir**](tasks/day22/solution.ex) - Built on the Erlang VM, known for its scalability and maintainability.
-23. [**Day 23: F#**](tasks/day23/solution.fs) - Functional-first language for .NET applications.
-24. [**Day 24: Dart**](tasks/day24/solution.dart) - Optimized for UI development, used for Flutter.
-25. [**Day 25: Julia**](tasks/day25/solution.jl) - High-performance language for technical computing.
+9. [**Day 9: PHP**] - Widely used in web development, offering a different perspective.
+10. [**Day 10: Kotlin**] - Modern language, great for concise and expressive code.
+11. [**Day 11: Scala**] - Functional programming features on the JVM.
+12. [**Day 12: C#**] - Powerful for various applications, with robust library support.
+13. [**Day 13: Haskell**] - Pure functional programming for a different challenge.
+14. [**Day 14: TypeScript**] - JavaScript with static type-checking.
+15. [**Day 15: Perl**] - Text processing and system administration tasks.
+16. [**Day 16: Lua**] - Lightweight and embeddable scripting language.
+17. [**Day 17: Clojure**] - A modern take on Lisp, emphasizing immutability and functional programming.
+18. [**Day 18: R**] - Great for any data analysis or statistical challenges.
+19. [**Day 19: Groovy**] - Agile and dynamic language for the Java platform.
+20. [**Day 20: Objective-C**] - A different flavor of C, especially for those familiar with Apple ecosystems.
+21. [**Day 21: Erlang**] - For its unique approach to concurrency and distributed systems.
+22. [**Day 22: Elixir**] - Built on the Erlang VM, known for its scalability and maintainability.
+23. [**Day 23: F#**] - Functional-first language for .NET applications.
+24. [**Day 24: Dart**] - Optimized for UI development, used for Flutter.
+25. [**Day 25: Julia**] - High-performance language for technical computing.
